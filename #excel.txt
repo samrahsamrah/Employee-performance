@@ -1,0 +1,51 @@
+#excel
+A
+B
+C
+D
+E
+F
+G
+H
+Employee Name
+Actual Output
+Expected Output
+Quality %
+ECS
+IPI
+Standardization Percentile (SP)
+Final Score / KPI Weight
+John
+52
+45
+94
+= (B2/C2)*100
+= (E2*D2)/100
+=PERCENTRANK.INC($F:$F,F2)
+=0.6*(F2/100) + 0.4*(G2/50)
+Sarah
+48
+45
+98
+= (B3/C3)*100
+= (E3*D3)/100
+=PERCENTRANK.INC($F:$F,F3)
+=0.6*(F3/100) + 0.4*(G3/50)
+Mike
+41
+45
+96
+= (B4/C4)*100
+= (E4*D4)/100
+=PERCENTRANK.INC($F:$F,F4)
+=0.6*(F4/100) + 0.4*(G4/50)
+...
+...
+...
+...
+...
+...
+...
+...
+
+
